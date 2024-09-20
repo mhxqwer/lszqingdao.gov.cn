@@ -1,0 +1,247 @@
+/* hover弹层展示 */
+
+.share_main_hover {
+	position: relative;
+	display: inline-block;
+}
+
+.share_main_hover:hover .share_btn {
+	display: block;
+	font-size: 12px;
+	color: #333;
+}
+
+.share_main_hover .share_title {
+	display: inline-block;
+	color: #666;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.share_main_hover .share_title:hover {
+	color: #32beff;
+}
+
+.share_main_hover .share_title:hover .share_icon {
+	background: url(../fonts/b651cb0d3c7c440bbaba9ae22549eb9a.woff) -25px -275px;
+}
+
+.share_main_hover .share_btn {
+	background-color: #FFF;
+	padding: 0;
+	width: 222px;
+	border: 1px solid #eee;
+	position: absolute;
+	top: 40px;
+	left: 0;
+	z-index: 99;
+	display: none;
+	background-color: #FFF;
+}
+
+.share_main_hover .share_btn .shareBtn {
+	float: left;
+	width: 100px;
+	padding-top: 4px;
+	display: inline-block;
+	padding-left: 5px;
+	height: 24px;
+	line-height: 20px;
+	cursor: pointer;
+	text-align: left;
+}
+
+.share_main_hover .share_btn P {
+	padding-left: 5px;
+	text-align: left;
+	line-height: 25px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+	height: 25px;
+	margin-bottom: 3px;
+	margin-top: 0;
+	background-color: #F2F2F2;
+}
+
+.share_main_hover .share_btn a:hover {
+	color: #666;
+}
+
+.share_main_hover .shareBtn i {
+	float: left;
+	vertical-align: middle;
+	margin-right: 5px;
+	margin-top: 0;
+	text-align: left;
+	overflow: hidden;
+	height: 32px;
+	line-height: 14px;
+	padding-left: 36px;
+	background: url(../fonts/a2c21be96a8144eb8ce0cd42a56ef8c6.woff) no-repeat;
+	cursor: pointer
+}
+
+.share_main_hover .shareBtn_qzone {
+	background-position: 0 0 !important;
+}
+
+.share_main_hover .shareBtn_qq {
+	background-position: 0 -48px !important;
+}
+
+.share_main_hover .shareBtn_sina {
+	background-position: 0 -32px !important;
+}
+
+.share_main_hover .shareBtn_wechat {
+	background-position: 0 -16px !important;
+}
+
+.share_main_hover .shareBtn_douban {
+	background-position: 0 -128px
+}
+
+.share_main_hover .shareBtn:hover {
+	background-color: #F2F2F2;
+}
+
+.share_main_hover .shareBtn i {
+	margin: 0 !important;
+	margin-right: 5px !important;
+	padding: 0;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+}
+
+/* 微信弹层 */
+
+.trs_share_box {
+	z-index: 99999999999999;
+	background-clip: padding-box;
+	background-color: #fff;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	border-radius: 6px;
+	box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+	left: 50%;
+	margin: -180px 0 0 -180px;
+	overflow: hidden;
+	position: fixed;
+	top: 50%;
+	width: 360px;
+	height: 360px;
+	overflow: hidden
+}
+
+.trs_share_box .share_title {
+	border-bottom: 1px solid #ddd;
+	display: block;
+	color: #666;
+	font-size: 12px;
+	padding: 0 10px;
+	height: 30px;
+	line-height: 30px;
+}
+
+.trs_share_box .share_title:hover {
+	color: #666 !important;
+}
+
+.share_close {
+	text-decoration: none;
+	margin-top: 2px;
+	color: #000;
+	float: right;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+	line-height: 20px;
+	opacity: .2;
+	text-shadow: 0 1px 0 #fff
+}
+
+.share_qrcode_box {
+	text-align: center;
+	height: 251px;
+	position: relative
+}
+
+.share_qrcode_box img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -110px
+}
+
+.share_foot {
+	border-radius: 0 0 6px 6px;
+	border-top: 1px solid #ddd;
+	box-shadow: 0 1px 0 #fff inset;
+	height: 100%;
+	padding: 0 10px;
+	padding-top: 11px;
+	text-align: left;
+	font-size: 12px
+}
+
+/* 微信弹层end */
+
+.share_main_hover .share_icon {
+	background: url(../fonts/b651cb0d3c7c440bbaba9ae22549eb9a.woff) left -275px;
+	display: block;
+	margin: 0 auto;
+	vertical-align: middle;
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	line-height: 25px;
+}
+
+/* 横向显示的图标css样式 */
+
+.share_main_row {
+	font-size: 0;
+	height: 32px;
+	line-height: 32px;
+}
+
+.share_main_row .shareBtn {
+	background: url(../fonts/b2f7edb1826747f6804fc727b079d9b8.woff) no-repeat;
+}
+
+.share_main_row span {
+	font-size: 14px;
+	line-height: 32px;
+	vertical-align: middle;
+	float: left;
+}
+
+.share_main_row .share_btn {
+	height: 32px;
+	overflow: hidden;
+}
+
+.share_main_row .shareBtn {
+	width: 36px;
+	height: 32px;
+	float: left;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.share_main_row .shareBtn_qzoneAct {
+	background-position: 0px -32px;
+}
+
+.share_main_row .shareBtn_qqAct {
+	background-position: 0px -64px;
+}
+
+.share_main_row .shareBtn_sinaAct {
+	background-position: 0px 0px;
+}
+
+.share_main_row .shareBtn_wechatAct {
+	background-position: 0px -96px;
+}
